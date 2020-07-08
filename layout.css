@@ -1,0 +1,304 @@
+/*
+HTML 5 Template Name: Basic 89
+File: Layout CSS
+Author: OS Templates
+Author URI: https://www.os-templates.com/
+Licence: <a href="https://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+
+body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif; color:#919191; background-color:#232323;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+code{font-weight:normal; font-style:normal; font-family:Georgia, "Times New Roman", Times, serif;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #D6D6D6; text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+address, article, aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}
+
+q{display:block; padding:0 10px 8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+q:before{content:'� '; font-size:26px;}
+q:after{content:' �'; font-size:26px; line-height:0;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+
+.row1, .row1 a{color:#C0BAB6; background-color:#333333;}
+.row2{color:#979797; background-color:#FFFFFF;}
+.row2 a{color:#FF9900; background-color:#FFFFFF;}
+.row3, .row3 a{color:#919191; background-color:#232323;}
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header, #container, #footer{display:block; width:100%; margin:0 auto;}
+
+nav ul{margin:0; padding:0; list-style:none;}
+
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:16px; font-weight:bold; font-style:normal; line-height:normal; text-transform:uppercase;}
+
+address{font-style:normal;}
+
+blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+blockquote:before, q:before{content:'� '; font-size:26px;}
+blockquote:after, q:after{content:' �'; font-size:26px; line-height:0;}
+
+form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Times,serif;}
+
+.one_quarter, .two_quarter, .three_quarter, .four_quarter{display:inline-block; margin-left: 90px}
+.one_quarter{width:225px;}
+.two_quarter{width:470px;}
+.three_quarter{width:715px;}
+.four_quarter{width:960px; float:none; margin-right:0; clear:both;}
+
+.one_third, .two_third, .three_third{display:inline-block; margin:0 0 10px 40px;}
+
+.three_third{width:960px; float:none; margin-right:0; clear:both;}
+
+.lastbox{margin-right:0;}
+
+/*----------------------------------------------Header-------------------------------------*/
+
+#header{padding:20px 0;}
+.foto{width:300px;height: 300px ;display:block; margin:auto;margin-top:100px;}
+
+#header #hgroup{float:left; margin:0 0 20px 0;}
+#header #hgroup h1, #header #hgroup h2{font-weight:normal; text-transform:none;}
+#header #hgroup h1{font-size:36px;}
+#header #hgroup h2{font-size:13px;}
+
+#header nav{display:block; float:right; margin:10px 0 0 0; padding:20px 0; color:#C0BAB6; background-color:#232323;}
+#header nav ul{padding:0 20px;}
+#header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
+#header nav li.last{margin-right:0;}
+#header nav li a{color:#C0BAB6; background-color:#232323;}
+#header nav li a:hover{color:#FF9900; background-color:#232323;}
+
+/*----------------------------------------------Content Area-------------------------------------*/
+
+#container{padding:30px 0;}
+#container section{display:block; width:100%; margin:0 0 30px 0; padding:0;}
+#container .last{margin:0;}
+#container .more{text-align:left;margin-top: 90px;margin-left: 206px;text-align: left;}
+
+/* ------Slider-----*/
+
+#container #slider{margin-bottom:50px;}
+
+/* ------Homepage-----*/
+
+#container #homepage{display:block; width:100%; line-height:1.6em;}
+
+#container #homepage #services{padding:0 0 30px 0;margin-left: auto; margin-right: auto; border-bottom:1px solid #DEDEDE;}
+#container #homepage #services article{}
+#container #homepage #services figure{display:inline; float:left;}
+#container #homepage #services strong{float:left; margin:8px 0 0 10px; padding:0; font-size:14px; font-weight:bold; text-transform:uppercase;}
+#container #homepage #services p{display:block; margin:0; padding:5px 0 0 0; clear:both; line-height:1.6em;}
+
+#container #homepage #latest{padding:0 0 30px 0; border-bottom:1px solid #DEDEDE;}
+#container #homepage #latest article{}
+#container #homepage #latest article figure{}
+#container #homepage #latest article figure ul{margin:0; padding:0; list-style:none;}
+#container #homepage #latest article figure ul li{}
+#container #homepage #latest article figure ul li img{padding:4px; border:1px solid #D6D6D6;    margin-left: 60px;}
+#container #homepage #latest article figure figcaption{display:block; width:100%; margin-top:20px; text-align:right;}
+
+/* ------Main Content-----*/
+
+#container #content{float:left; width:630px; line-height:1.6em;}
+
+#container #content #posts{}
+#container #content #posts ul{margin:0; padding:0; list-style:none;}
+#container #content #posts ul li{display:block; width:100%; margin-bottom:30px;}
+#container #content #posts ul li.last{ margin-bottom:0;}
+#container #content #posts ul li article{}
+#container #content #posts ul li article figure{}
+#container #content #posts ul li article figure img{float:left; width:180px; height:150px; margin:0; padding:4px; border:1px solid #D6D6D6;}
+#container #content #posts ul li article figure figcaption{display:block; float:right; width:410px;}
+#container #content #posts ul li article figure h2{font-size:14px;}
+#container #content #posts ul li article figure footer{}
+
+/* ------Right Column-----*/
+
+#container #right_column{margin-top: 50px;float:right; width:280px;}
+#container #right_column h2.title{margin-bottom:15px; padding-bottom:15px; border-bottom:1px solid #DEDEDE;}
+
+#container #right_column nav{display:block; width:100%;}
+#container #right_column nav ul{margin:0; padding:0; list-style:none;}
+#container #right_column nav li{margin:0 0 3px 0; padding:0;}
+#container #right_column nav li.last{margin-bottom:0;}
+#container #right_column nav a{display:block; margin:0; padding:5px 10px 5px 20px; color:#666666; background:url("../images/orange_file.gif") no-repeat 10px center #FFFFFF; text-decoration:none; border-bottom:1px dotted #666666;}
+#container #right_column nav a:hover{color:#FF9900; background-color:#FFFFFF;}
+
+/*----------------------------------------------Footer-------------------------------------*/
+#footer{padding:20px 0;}
+#footer p{margin:0; padding:0;}
+/*----------------------------------------------@media screen------------------------------------*/
+
+@media screen and (max-width: 600px) {
+
+    #header nav{
+      display:none;
+    }
+
+    aside{
+        display:none;
+      }
+  }
+  
+  
+/*----------------------------------------------HEADER------------------------------------*/
+  
+  
+  
+.header {
+  background-color: #000;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+  background-color: #000;
+  color: white;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: #000;
+  color: white;
+
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+}
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #fff;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #fff;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
